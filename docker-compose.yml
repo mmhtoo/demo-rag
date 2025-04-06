@@ -1,0 +1,13 @@
+
+services:
+  chromadb:
+    container_name: chromadb
+    image: chromadb/chroma
+    ports:
+      - "8000:8000"
+    volumes:
+      - chroma_data:/chroma/chroma
+      - ./config/chroma_auth.json:/chroma/config
+    restart: unless-stopped
+volumes:
+  chroma_data:
