@@ -12,7 +12,7 @@ type RagInput = {
 export async function createRagPipeline(vectoreStore: Chroma) : Promise<RunnableSequence<RagInput, string>>{
     try{
         const retriever = vectoreStore.asRetriever({
-            k : 5
+            
         })
 
 

@@ -57,12 +57,27 @@ async function main(){
 // const res = await ragChain.invoke({
 //         question : "Any polical changes in myanmar?"
 //        })
+
        
-const res = await ragChain.invoke({
-        question : "How many ethnic groups in Myanamr?"
-       })
-   console.log(res)
-   
+    // const res = await ragChain.invoke({
+    //     question : "How many ethnic groups in Myanamr?"
+    //    })
+    // const stream = ragChain._streamIterator({
+    //     question : "What is Go Lang?"
+    //    })
+    // for await (const result of stream){
+    //     console.log(result)
+    // }
+    // const res = await ragChain.invoke({
+    //     question : "What is Go Lang?"
+    //    })
+    //   const res = await ragChain.invoke({
+    //     question : "Go Lang ဆိုတာ ဘာလဲ?"
+    //    })
+    const res = await ragChain.invoke({
+            question : "Go Lang အကြောင်း မြန်မာလို ရှင်းပြပါ"
+           })
+    console.log(res)
 }
 
 main().catch(console.error)
