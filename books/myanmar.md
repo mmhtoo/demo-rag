@@ -1,0 +1,5 @@
+Myanmar, formerly known as Burma, is a country in Southeast Asia bordered by India, China, Laos, Thailand, and Bangladesh. With a population of over 55 million, its largest city is Yangon (Rangoon), while Naypyidaw serves as the official capital. Known for its rich cultural heritage, Myanmar is home to thousands of Buddhist pagodas, with the Shwedagon Pagoda being the most iconic.
+
+The country is incredibly diverse, with more than 135 ethnic groups and languages. Its history is marked by ancient kingdoms, colonial rule under the British Empire, and decades of political transition. Despite political challenges, Myanmar remains culturally vibrant—famous for its traditional arts, festivals like Thingyan (Water Festival), and natural beauty, including the Irrawaddy River and Inle Lake.
+
+In recent years, Myanmar has seen rapid technological growth and increasing global interest in its tourism and economy, though it continues to navigate complex social and political changes.

@@ -3,13 +3,22 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
-  "scripts" : {
-    "start" : "bun index.ts"
+  "scripts": {
+    "start": "bun index.ts",
+    "prepare" : "bun ./scripts/prepare.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.39",
+    "@langchain/core": "^0.3.43",
+    "@langchain/ollama": "^0.2.0",
+    "chromadb": "^2.2.0",
+    "dotenv": "^16.4.7",
+    "langchain": "^0.3.20"
   }
 }
